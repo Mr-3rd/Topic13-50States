@@ -1,15 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <page-header></page-header>
+    <p>
+      todo-Content
+    </p>
+    <page-footer></page-footer>
+  </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import PageHeader from "@/components/PageHeader.vue";
+import PageFooter from "@/components/PageFooter.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageFooter,
+    PageHeader
+
+  },
+  mounted() {
+    // Use a lifecycle hook to make a request
+    this.$stateService.getAllStates().then(states => console.log(states))
   }
 }
 </script>
@@ -21,6 +35,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

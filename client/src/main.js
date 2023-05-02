@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import StateAPIService from '@/services/stateService'
+
+let app = createApp(App)
+
+app.config.globalProperties.$stateService = StateAPIService
+
+app.mount('#app')
