@@ -2,7 +2,7 @@
 
 <!--  Create the div that holds the header-->
   <div id="block-header">
-    <h1 id="title">HAve you visited every state?</h1>
+    <h1 id="title">Have you visited every state?</h1>
   </div>
 
 </template>
@@ -22,13 +22,18 @@ export default {
   border-radius: .3rem;
   background-color: brown;
   background-image: url("~@/assets/map_header.jpeg");
-  background-position: center;
+  background-position: 70px;
   background-size: cover;
 }
 
 #title {
+  padding: 5px;
   font-weight: 500;
   color: ghostwhite;
+  background-color: #005900;
+  display: table;
+  margin: auto;
 }
+
 
 </style>
