@@ -1,9 +1,12 @@
 <template>
   <div>
+<!--    add the vue component to generate the page header-->
     <page-header></page-header>
-    <p>
-      todo-Content
-    </p>
+
+<!--    add the vue router component that holds the state list-->
+    <router-view></router-view>
+
+<!--    add the vue component to generate the page footer-->
     <page-footer></page-footer>
   </div>
 </template>
@@ -13,17 +16,14 @@
 
 import PageHeader from "@/components/PageHeader.vue";
 import PageFooter from "@/components/PageFooter.vue";
+import StateList from "@/components/StateList.vue";
 
 export default {
   name: 'App',
   components: {
+    StateList,
     PageFooter,
     PageHeader
-
-  },
-  mounted() {
-    // Use a lifecycle hook to make a request
-    this.$stateService.getAllStates().then(states => console.log(states))
   }
 }
 </script>
