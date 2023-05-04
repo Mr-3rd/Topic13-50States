@@ -1,0 +1,40 @@
+Microsoft Windows [Version 10.0.19044.2846]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\me7196pe>curl -X PATCH --data '{"visited":false}' -H "Content-Type: Application/JSON" 127.0.0.1:3000/api/states/Iowa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: res.status is not a function<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\server.js:17:9<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)</pre>
+</body>
+</html>
+
+C:\Users\me7196pe>curl -X PATCH --data '{"visited":false}' -H "Content-Type: Application/JSON" 127.0.0.1:3000/api/states/Iowa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: res.status is not a function<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\server.js:17:9<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)</pre>
+</body>
+</html>
+
+C:\Users\me7196pe>curl -X PATCH --data '{"visited":false}' -H "Content-Type: Application/JSON" 127.0.0.1:3000/api/states/Iowa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>TypeError: res.status is not a function<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\server.js:17:9<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)<br> &nbsp; &nbsp;at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)<br> &nbsp; &nbsp;at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)<br> &nbsp; &nbsp;at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)<br> &nbsp; &nbsp;at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)</pre>
+</body>
+</html>
+
+C:\Users\me7196pe>

@@ -1,0 +1,111 @@
+Microsoft Windows [Version 10.0.19044.2846]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\me7196pe>cd C:\Assignment\Topic13-50States
+
+C:\Assignment\Topic13-50States>nodmon server.js
+'nodmon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Assignment\Topic13-50States>nodemon server.js
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+Executing (default): SELECT `id`, `name`, `visited`, `lat`, `lon`, `zoom`, `createdAt`, `updatedAt` FROM `States` AS `States` ORDER BY `States`.`name`;
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+undefined
+TypeError: res.status is not a function
+    at C:\Assignment\Topic13-50States\server.js:17:9
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+undefined
+TypeError: res.status is not a function
+    at C:\Assignment\Topic13-50States\server.js:17:9
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+^C
+C:\Assignment\Topic13-50States>npm install
+
+up to date, audited 339 packages in 752ms
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Assignment\Topic13-50States>nodemon server.js
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+undefined
+TypeError: res.status is not a function
+    at C:\Assignment\Topic13-50States\server.js:17:9
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+development
+App running on port 3000
+undefined
+TypeError: res.status is not a function
+    at C:\Assignment\Topic13-50States\server.js:17:9
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Assignment\Topic13-50States\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:326:13)
+    at C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Assignment\Topic13-50States\node_modules\express\lib\router\index.js:346:12)
+^C
+C:\Assignment\Topic13-50States>
+
+C:\Assignment\Topic13-50States>nodemon server.js
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+development
+App running on port 3000
