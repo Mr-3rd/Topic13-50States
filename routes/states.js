@@ -22,7 +22,7 @@ router.patch('/states/:name', function (req,res,next) {
     States.update({visited: stateVisited}, {where: {name: stateName}})
         .then( rowsUpdated => {
             // if there are any rows that were updated,
-            if( rowsUpdated ) {
+            if( rowsUpdated[0] ) {
                 // send that ok response that the DB has been updated
                 return res.send('ok')
             } else {
