@@ -13,7 +13,7 @@ router.get('/states', function (req, res, next){
 })
 
 // set a patch route to set wether a state has been visited
-router.patch('/states/:name', function (req,res,next) {
+router.patch('/state/:name', function (req, res,next) {
     // collect the state name and visited status
     let stateName = req.params.name
     let stateVisited = req.body.visited
